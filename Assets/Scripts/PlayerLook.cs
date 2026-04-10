@@ -34,5 +34,6 @@ public class PlayerLook : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         transform.Rotate(Vector3.up * mouseInput.x * mouseSensitivity * Time.deltaTime);
+        mouseInput = Vector2.zero;
     }
 }

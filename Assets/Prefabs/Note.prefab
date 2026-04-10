@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7604729789309147077}
   - component: {fileID: 6526552146042395597}
   - component: {fileID: 8898956464628905516}
+  - component: {fileID: 8280105847562371161}
   m_Layer: 0
   m_Name: Note
   m_TagString: Untagged
@@ -28,9 +29,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6376712243548513417}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017441731, y: -0.37815702, z: 0.042645026, w: 0.9245942}
+  m_LocalRotation: {x: 0.017437916, y: -0.37815648, z: 0.04264311, w: 0.9245946}
   m_LocalPosition: {x: 60.357, y: 4.139, z: 145.866}
-  m_LocalScale: {x: 0.70415, y: 0.79322, z: 0.0918562}
+  m_LocalScale: {x: 0.70415, y: 0.7932201, z: 0.09185619}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -68,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f21fdc5331ae0484f90d29952b8f97f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,3 +127,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Note
   highlightMaterial: {fileID: 2100000, guid: 203ba890fcbe0f6498d6890b1a1d18b0, type: 2}
+  areYouSureText: {fileID: 0}
+  collectActionReference: {fileID: -3649512217172092477, guid: ccbbe7f366637a345b7d71d9419dd448, type: 3}
+--- !u!114 &8280105847562371161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376712243548513417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifier
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
