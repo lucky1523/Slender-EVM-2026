@@ -3673,7 +3673,7 @@ MonoBehaviour:
   noiseImage: {fileID: 2133912974}
   slenderTransform: {fileID: 1667258729}
   noiseVideoPlayer: {fileID: 1563463489}
-  slenderman: {fileID: 1667258731}
+  slenderman: {fileID: 0}
 --- !u!1001 &2345157991945576457
 PrefabInstance:
   m_ObjectHideFlags: 0
